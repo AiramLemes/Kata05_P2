@@ -47,6 +47,6 @@ public class Kata5 {
     
     
     public static void output() {
-        new HistogramDisplay(process().builder(input().read("../Kata5P2/email.txt"))).execute();
+        new HistogramDisplay(process().builder(input().read("email.txt"))).execute();
     }
 }
